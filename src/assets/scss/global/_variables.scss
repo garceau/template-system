@@ -1,0 +1,28 @@
+// SETTINGS FOR TEMPLATE SYSTEM
+// ============================
+
+// TYPOGRAPHY
+
+$font-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$font-serif: 'Roboto Mono', monospace;
+
+// LAYOUT
+$max-width-columns: 1200px; // 75em
+$max-number-columns: 12;    // because 12 has greatest number of divisors, 1x12, 2x6, 3x4, 4x3, 6x2, 12x1 (6)
+
+// Calc Max-Width of Designated Col Sizes
+$one:     01 / 12 * 100%;  //  8.33333%  
+$two:     02 / 12 * 100%;  // 16.66667%
+$three:   03 / 12 * 100%;  // 25%
+$four:    04 / 12 * 100%;  // 33.33333%
+$five:    05 / 12 * 100%;  // 41.66667%
+$six:     06 / 12 * 100%;  // 50%
+$seven:   07 / 12 * 100%;  // 58.33333%
+$eight:   08 / 12 * 100%;  // 66.66667%
+$nine:    09 / 12 * 100%;  // 75%
+$ten:     10 / 12 * 100%;  // 83.33333%
+$eleven:  11 / 12 * 100%;  // 91.66667%
+$twelve:  12 / 12 * 100%;  // 100%
+
+// 
+

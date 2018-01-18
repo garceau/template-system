@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-size: 100%;
+    font-size: 15px;
+    color: #4a4a4a;
+    background: #fafafa;
+}
+*, *::before, *::after {
+    box-sizing: inherit; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: $font-sans-serif;
+}
+
+

@@ -1,0 +1,30 @@
+# Project Dev Server will be located at http://localhost:8888
+PORT: 8888
+
+# Autoprefixer to work with browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+  - "ios >= 7"
+
+# UnCSS Options
+UNCSS_OPTIONS:
+  html:
+    - "src/**/*.html"
+  ignore:
+# Path Declaration
+PATHS:
+  # Location of Dist Folder
+  dist: "dist"  
+  # Paths to static assets
+  assets:
+    - "src/assets/**/*"
+    - "!src/assets/{img,js,scss}/**/*"
+
+  # Path to Sass Libraries
+  sass:
+  # - "node_modules/vendor/src/scss"  // Example
+    - "node_modules/ionicons/dist/scss"
+  # Paths to JavaScript to be bundled 
+  entries:
+    - "src/assets/js/app.js"

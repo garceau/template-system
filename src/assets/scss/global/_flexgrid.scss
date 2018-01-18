@@ -1,0 +1,313 @@
+.row, .grid {
+    max-width: 1200px;
+    @include margin(null, auto, null, auto);
+    display: flex;
+    flex-flow: row wrap;
+    .row {
+      @include margin(null, -10px, null, -10px);
+      @media print, screen and (min-width: 640px) {
+        @include margin(null, -15px, null, -15px);
+      }
+      @media print, screen and (min-width: 1024px) {
+        @include margin(null, -15px, null, -15px);
+      }
+      .collapse {
+        @include margin(null, 0, null, 0);
+      }
+    }
+        .exanded {
+        max-width: none;
+        .row {
+          @include margin(null, auto, null, auto);
+        }
+      }
+      &:not(.expanded) .row {
+        max-width: none;
+      }
+  }
+  
+  .column, .cell {
+    flex: 1 1 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 0;
+        @media print, screen and (min-width: 640px) {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+  }
+  // Small Screen Sizes
+  // change prefix to preference
+  // example .sm-, .small-, .s-, .small-screen-
+  .small- {
+    &1 {
+      flex: 0 0 $one;
+      max-width: $one;
+    }
+    &2 {
+      flex: 0 0 $two;
+      max-width: $two;
+    }
+    &3 {
+      flex: 0 0 $three;
+      max-width: $three;
+    }
+    &4 {
+      flex: 0 0 $four;
+      max-width: $four;
+    }
+    &5 {
+      flex: 0 0 $five;
+      max-width: $five;
+    }
+    &6 {
+      flex: 0 0 $six;
+      max-width: $six;
+    }
+    &7 {
+      flex: 0 0 $seven;
+      max-width: $seven;
+    }
+    &8 {
+      flex: 0 0 $eight;
+      max-width: $eight;
+    }
+    &9 {
+      flex: 0 0 $nine;
+      max-width: $nine;
+    }
+    &10 {
+      flex: 0 0 $ten;
+      max-width: $ten;
+    }
+    &11{
+      flex: 0 0 $eleven;
+      max-width: $eleven;
+    }
+    &12 {
+      flex: 0 0 $twelve;
+      max-width: $twelve;
+    }
+  }
+  // Off-Sets For Small Screen Sizes
+  .small-offset- {
+    &0 {
+      margin-left: 0;
+    }
+    &1 {
+      margin-left: $one;
+    }
+    &2 {
+      margin-left: $two
+    }
+    &3 {
+      margin-left: $three
+    }
+    &4 {
+      margin-left: $four
+    }
+    &5 {
+      margin-left: $five
+    }
+    &6 {
+      margin-left: $six
+    }
+    &7 {
+      margin-left: $seven
+    }
+    &8 {
+      margin-left: $eight
+    }
+    &9 {
+      margin-left: $nine
+    }
+    &10 {
+      margin-left: $ten
+    }
+    &11 {
+      margin-left: $eleven
+    }
+  }
+  
+  
+  @media print, screen and (min-width: 640px) {
+    .medium- {
+    &1 {
+      flex: 0 0 $one;
+      max-width: $one;
+    }
+    &2 {
+      flex: 0 0 $two;
+      max-width: $two;
+    }
+    &3 {
+      flex: 0 0 $three;
+      max-width: $three;
+    }
+    &4 {
+      flex: 0 0 $four;
+      max-width: $four;
+    }
+    &5 {
+      flex: 0 0 $five;
+      max-width: $five;
+    }
+    &6 {
+      flex: 0 0 $six;
+      max-width: $six;
+    }
+    &7 {
+      flex: 0 0 $seven;
+      max-width: $seven;
+    }
+    &8 {
+      flex: 0 0 $eight;
+      max-width: $eight;
+    }
+    &9 {
+      flex: 0 0 $nine;
+      max-width: $nine;
+    }
+    &10 {
+      flex: 0 0 $ten;
+      max-width: $ten;
+    }
+    &11{
+      flex: 0 0 $eleven;
+      max-width: $eleven;
+    }
+    &12 {
+      flex: 0 0 $twelve;
+      max-width: $twelve;
+    }
+  }
+  .medium-offset- {
+    &0 {
+      margin-left: 0;
+    }
+    &1 {
+      margin-left: $one;
+    }
+    &2 {
+      margin-left: $two
+    }
+    &3 {
+      margin-left: $three
+    }
+    &4 {
+      margin-left: $four
+    }
+    &5 {
+      margin-left: $five
+    }
+    &6 {
+      margin-left: $six
+    }
+    &7 {
+      margin-left: $seven
+    }
+    &8 {
+      margin-left: $eight
+    }
+    &9 {
+      margin-left: $nine
+    }
+    &10 {
+      margin-left: $ten
+    }
+    &11 {
+      margin-left: $eleven
+    }
+  }
+  }
+  
+  @media print, screen and (min-width: 1024px) {
+    .large- {
+    &1 {
+      flex: 0 0 $one;
+      max-width: $one;
+    }
+    &2 {
+      flex: 0 0 $two;
+      max-width: $two;
+    }
+    &3 {
+      flex: 0 0 $three;
+      max-width: $three;
+    }
+    &4 {
+      flex: 0 0 $four;
+      max-width: $four;
+    }
+    &5 {
+      flex: 0 0 $five;
+      max-width: $five;
+    }
+    &6 {
+      flex: 0 0 $six;
+      max-width: $six;
+    }
+    &7 {
+      flex: 0 0 $seven;
+      max-width: $seven;
+    }
+    &8 {
+      flex: 0 0 $eight;
+      max-width: $eight;
+    }
+    &9 {
+      flex: 0 0 $nine;
+      max-width: $nine;
+    }
+    &10 {
+      flex: 0 0 $ten;
+      max-width: $ten;
+    }
+    &11{
+      flex: 0 0 $eleven;
+      max-width: $eleven;
+    }
+    &12 {
+      flex: 0 0 $twelve;
+      max-width: $twelve;
+    }
+  }
+  .large-offset- {
+    &0 {
+      margin-left: 0;
+    }
+    &1 {
+      margin-left: $one;
+    }
+    &2 {
+      margin-left: $two
+    }
+    &3 {
+      margin-left: $three
+    }
+    &4 {
+      margin-left: $four
+    }
+    &5 {
+      margin-left: $five
+    }
+    &6 {
+      margin-left: $six
+    }
+    &7 {
+      margin-left: $seven
+    }
+    &8 {
+      margin-left: $eight
+    }
+    &9 {
+      margin-left: $nine
+    }
+    &10 {
+      margin-left: $ten
+    }
+    &11 {
+      margin-left: $eleven
+    }
+  }
+  }
