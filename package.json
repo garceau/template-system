@@ -10,8 +10,8 @@
   "author": "Tommy Garceau <tommy@garceau.io>",
   "license": "MIT",
   "dependencies": {
-    "ionicons": "^3.0.0",
-    "jquery": ">=3.0.0"
+    "jquery": ">=3.0.0",
+    "material-design-icons": "^3.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

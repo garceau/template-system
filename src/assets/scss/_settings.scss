@@ -1,9 +1,10 @@
-// Import Global Variables and Mixins
-@import 'global/variables';
-@import 'global/mixins';
-// Import Vendor Files
-@import 'ionicons';
-// Reset Browser
-@import 'global/reset';
-// Import Flexbox Grid
+// SETTINGS: TEMPLATE-SYSTEM
+@import 'global/variables';     // Always the first import
+@import 'global/mixins';        // Useful Mixins and Functions
+@import 'global/reset';         // Needs to come after variables and mixins are imported
+@import 'global/utilities';
 @import 'global/flexgrid';
+@import 'global/guide';         // Guide Specific Styling
+// 
+
+@import 'custom';  // This is where you add your style.

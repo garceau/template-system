@@ -1,0 +1,15 @@
+// HOW TO INCLUDE YOUR STYLESHEETS INTO THE SYSTEM
+
+// STEP 1: Place all of your .scss stylesheets inside the vendor folder.
+//         Make sure each has an underscore added to the front of the name.
+//------>  Example: stylesheet.scss becomes _stylesheets.scss
+
+// SET 2: Enter the stylesheet includes below.
+//         Leave the .scss out fo the include.
+//------>  Example: @include 'vendor/style';
+//------>  @import 'vendor/stylesheet1';
+//------>  @import 'vendor/stylesheet2';
+//------>  @import 'vendor/stylesheet3';
+
+/* Custom Style */
+// Here is where you will style your site and make it yours.
