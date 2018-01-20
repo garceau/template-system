@@ -15,7 +15,7 @@
         @include margin(null, 0, null, 0);
       }
     }
-        .exanded {
+        .expanded {
         max-width: none;
         .row {
           @include margin(null, auto, null, auto);
